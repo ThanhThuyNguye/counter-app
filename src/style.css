@@ -15,22 +15,28 @@ body {
   padding: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 60px;
+  border: 3px solid #05df72;
+  box-shadow: 0 0 15px #05df72;
 }
 
 h1 {
   display: block;
   text-align: center;
   font-size: 40px;
-  
-
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 h2 {
   display: block;
   text-align: center;
   font-size: 40px;
-  
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 25px;
 }
 
 a {
@@ -43,8 +49,8 @@ a:hover {
 }
 
 hr {
-    width: 100%;
-    border: 1px solid white;
+  width: 100%;
+  border-bottom: 1px solid white;
 }
 
 footer {
@@ -60,3 +66,53 @@ footer {
   font-size: 30px;
   padding-bottom: 17px;
 }
+
+.minus {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 50%;
+  border: 1px solid red;
+  box-shadow: 0 0 5px red;
+}
+
+.minus:hover {
+    cursor: pointer;
+    box-shadow: 0 0 13px #FC0304;
+}
+
+.reset {
+  background-color: #00C899;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 23px;
+  border-radius: 60px;
+  border: 1px solid #00C899;
+  box-shadow: 0 0 5px #00C899;
+}
+
+.reset:hover {
+    cursor: pointer;
+    box-shadow:0 0 13px #00C899;
+}
+
+.plus {
+  background-color: #31C950;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 50%;
+  border: 1px solid #31C950;
+  box-shadow: 0 0 5px #31C950;
+}
+
+.plus:hover {
+    cursor: pointer;
+    box-shadow:0 0 13px #56FF00;
+}
+
+

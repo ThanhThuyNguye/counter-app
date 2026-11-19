@@ -1,12 +1,12 @@
 body {
   background-color: #312c85;
   color: white;
+  font-family: sans-serif;
 }
 .container {
   background-color: #1c398e;
   max-width: 50%;
   padding: 10px;
-
 }
 
 h1,
@@ -15,7 +15,23 @@ h2 {
   text-align: center;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  color: #21bcff;
+  font-weight: bold;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  margin: 17px;
+}
+
 .reset-button {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }

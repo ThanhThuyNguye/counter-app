@@ -1,18 +1,36 @@
 body {
   background-color: #312c85;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   color: white;
   font-family: sans-serif;
 }
 .container {
   background-color: #1c398e;
-  max-width: 50%;
-  padding: 10px;
+  width: 90%;
+  max-width: 400px;
+  aspect-ratio: 1 / 1;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-h1,
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  
+
+}
+
 h2 {
   display: block;
   text-align: center;
+  font-size: 40px;
+  
 }
 
 a {
@@ -22,16 +40,23 @@ a {
 a:hover {
   cursor: pointer;
   color: #21bcff;
-  font-weight: bold;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid white;
 }
 
 footer {
   display: block;
   text-align: center;
   margin: 17px;
+  font-size: 13px;
 }
 
 .reset-button {
   display: flex;
   justify-content: space-evenly;
+  font-size: 30px;
+  padding-bottom: 17px;
 }
